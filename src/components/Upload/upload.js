@@ -41,7 +41,7 @@ const Upload = () => {
         //      console.log("not posted");
         // }
 
-        await Axios("http://localhost:8000/upload", {
+        await Axios("https://neha-insta-clone.onrender.com/upload", {
             method : "post",
             headers: {
                 "Content-Type":"application/json"
